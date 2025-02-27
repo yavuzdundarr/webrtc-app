@@ -1,0 +1,18 @@
+git clone https://github.com/yavuzdundarr/webrtc-app.git
+cd webrtc-app
+
+npm install
+
+// SERVER
+
+node-version: v20.17.0
+
+To start the server: "node server.js"
+
+
+// FRONTEND
+
+react-version: "^19.0.0"
+
+1) npm install
+2) To start the project: "npm run dev"

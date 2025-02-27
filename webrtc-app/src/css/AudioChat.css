@@ -1,0 +1,141 @@
+.audio-chat-container {
+    max-width: 500px;
+    margin: 32px auto;
+    padding: 24px;
+    background-color: #f7f8fa;
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.audio-chat-container h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.incoming-call-box {
+    background-color: #fff3cd;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+}
+
+.incoming-call-box p {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #856404;
+}
+
+.call-buttons,
+.call-controls,
+.record-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.call-buttons button,
+.call-controls button,
+.record-controls button {
+    margin: 0 8px;
+}
+
+.primary-button {
+    background-color: #017cfc;
+    color: #fff;
+    border: 1px solid #017cfc;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.primary-button:disabled {
+    background-color: #c8d6e5;
+    border-color: #c8d6e5;
+    cursor: not-allowed;
+}
+
+.secondary-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: 1px solid #e74c3c;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.secondary-button:disabled {
+    background-color: #c8d6e5;
+    border-color: #c8d6e5;
+    cursor: not-allowed;
+}
+
+.accept-button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: 1px solid #27ae60;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reject-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: 1px solid #c0392b;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.record-button {
+    background-color: #f0932b;
+    color: #fff;
+    border: 1px solid #f0932b;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.record-button.stop {
+    background-color: #fd7272;
+    border-color: #fd7272;
+}
+
+.mute-button {
+    background-color: #8e44ad;
+    color: #fff;
+    border: 1px solid #8e44ad;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.audio-section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.audio-section audio {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.recorded-audio-container {
+    background-color: #f1f2f6;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.recorded-audio-container audio {
+    margin: 8px 0;
+    width: 100%;
+}
